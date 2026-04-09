@@ -1,9 +1,6 @@
-import os
 import numpy as np
 import joblib
 import streamlit as st
-
-st.write("Files in directory:" os.listdir())
          
 model = joblib.load("ms_severity_model.pkl")
 
